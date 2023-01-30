@@ -1,0 +1,67 @@
+.pizza__box-filter {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  padding: 75px 0 25px;
+
+  span {
+    font-weight: 500;
+    font-size: 14px;
+    color: #bdbdbd;
+    text-transform: capitalize;
+    margin-right: 20px;
+  }
+
+  div {
+    display: flex;
+    margin-right: auto;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 800px;
+    position: relative;
+    top: -12px;
+
+    button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 13px 22px;
+      border: 1px solid #e6e2e1;
+      border-radius: 20px;
+      font-size: 14px;
+      font-weight: 400;
+      text-transform: capitalize;
+      color: #a69895;
+      background-color: transparent;
+      cursor: pointer;
+      transition: color 0.25s linear;
+
+      svg {
+        width: 20px;
+        height: 20px;
+      }
+
+      &:hover {
+        color: rgb(80, 166, 132);
+      }
+
+      &.active {
+        border: 1px solid #50a684;
+        background-color: #50a684;
+        color: #ffffff;
+      }
+    }
+  }
+
+  a {
+    svg {
+      &:hover {
+        path {
+          fill: rgb(80, 166, 132);
+        }
+      }
+    }
+  }
+}
+
+

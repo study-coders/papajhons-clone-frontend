@@ -1,0 +1,34 @@
+.sort {
+  padding-top: 40px;
+
+  .sort__item {
+    border: 0;
+    border-radius: 25px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgb(69 69 69 / 10%);
+
+    ul {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-end;
+      padding: 20px 0;
+
+      li {
+        text-align: center;
+
+        div {
+          font-family: 'Gotham Pro', system-ui, Tahoma, sans-serif;
+          font-size: 14px;
+          font-weight: 700;
+          color: rgb(112, 84, 79);
+          margin-top: 20px;
+          transition: color 0.25s linear;
+
+          &:hover {
+            color: rgb(80, 166, 132);
+          }
+        }
+      }
+    }
+  }
+}
