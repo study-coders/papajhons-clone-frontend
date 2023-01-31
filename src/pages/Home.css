@@ -1,0 +1,18 @@
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+}
+.wrapper .content {
+  background-color: #f8f8f8;
+  min-height: 100vh;
+}
+.wrapper .content h1 {
+  text-transform: capitalize;
+  font-family: "Gotham Pro", system-ui, Tahoma, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #70555f;
+}
+
+/*# sourceMappingURL=Home.css.map */
