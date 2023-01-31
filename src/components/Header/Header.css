@@ -1,0 +1,88 @@
+.header {
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+.header .header__body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .header__body .header__btn-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  width: 480px;
+  height: 45px;
+  border: none;
+  border-radius: 24px;
+  font: inherit;
+  color: #ffffff;
+  background-color: rgb(80, 166, 132);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.header .header__body .header__btn-center:hover {
+  transform: scale(1.1);
+}
+.header .header__body .header__btn-center svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.header .header__body .header__btn-center svg path {
+  fill: white;
+}
+.header .header__body .header__btn-center span {
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+}
+.header .header__body .header__left {
+  display: flex;
+  align-items: center;
+}
+.header .header__body .header__left .header-talk {
+  font-family: "Gotham Pro", system-ui, Tahoma, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: capitalize;
+  padding: 0;
+  border: none;
+  color: inherit;
+  background-color: transparent;
+  opacity: 0.5;
+  cursor: pointer;
+  transition: color 0.25s linear;
+}
+.header .header__body .header__left .header-talk:hover {
+  color: rgb(80, 166, 132);
+}
+.header .header__body .header__left .header-burger-menu {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+.header .header__body .header__left .header-burger-menu svg {
+  width: 20px;
+  height: 20px;
+  margin-left: 20px;
+  opacity: 0.5;
+  transition: color 0.25s linear;
+}
+.header .header__body .header__left .header-burger-menu svg:hover {
+  color: rgb(80, 166, 132);
+}
+
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+/*# sourceMappingURL=Header.css.map */

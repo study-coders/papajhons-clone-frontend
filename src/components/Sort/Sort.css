@@ -1,0 +1,31 @@
+.sort {
+  padding-top: 40px;
+}
+.sort .sort__item {
+  border: 0;
+  border-radius: 25px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(69, 69, 69, 0.1);
+}
+.sort .sort__item ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  padding: 20px 0;
+}
+.sort .sort__item ul li {
+  text-align: center;
+}
+.sort .sort__item ul li div {
+  font-family: "Gotham Pro", system-ui, Tahoma, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(112, 84, 79);
+  margin-top: 20px;
+  transition: color 0.25s linear;
+}
+.sort .sort__item ul li div:hover {
+  color: rgb(80, 166, 132);
+}
+
+/*# sourceMappingURL=Sort.css.map */
