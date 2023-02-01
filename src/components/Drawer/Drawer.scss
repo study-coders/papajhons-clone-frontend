@@ -1,0 +1,23 @@
+.drawer__body {
+
+  .block {
+    width: 224px;
+    min-height: 250px;
+    border-radius: 0 0 5px 5px;
+    background-color: palevioletred;
+    position: relative;
+    z-index: 16;
+
+    .circle{
+      width: 100px;
+      height: 100px;
+      background-color: #50a684;
+      border-radius: 50%;
+      position: absolute;
+      top: -10px;
+      z-index: 12;
+    }
+  }
+
+}
+

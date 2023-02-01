@@ -1,8 +1,8 @@
 .pizza__box-filter {
   display: flex;
   justify-content: space-between;
-  width: 75%;
-  padding: 75px 0 25px;
+  max-width: 90%;
+  padding-bottom: 25px;
 
   span {
     font-weight: 500;
