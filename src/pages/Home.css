@@ -7,12 +7,23 @@
   background-color: #f8f8f8;
   min-height: 100vh;
 }
-.wrapper .content h1 {
+.wrapper .content .pizza__box-item {
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper .content .pizza__box-item h1 {
   text-transform: capitalize;
   font-family: "Gotham Pro", system-ui, Tahoma, sans-serif;
   font-size: 24px;
   font-weight: 700;
   color: #70555f;
+  margin-bottom: 25px;
+}
+.wrapper .content .pizza__box-item .pizza__box-body {
+  max-width: 90%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 /*# sourceMappingURL=Home.css.map */
