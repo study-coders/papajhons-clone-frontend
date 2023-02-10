@@ -5,6 +5,8 @@ import { Filter } from '@/components/Filtered/Filter'
 import { PizzaBlock } from '@/components/PizzaBlock/PizzaBlock'
 import { Drawer } from '@/components/Drawer/Drawer'
 import './Home.scss'
+import { Footer } from '@/components/Footer/Footer'
+import { Pagination } from '@/components/Pagination/Pagination'
 
 const Home = () => {
   return (
@@ -15,17 +17,15 @@ const Home = () => {
         <div className="pizza__box">
           <div className="container">
             <div className="pizza__box-item">
-              <div>
+              <div className="pizza__box-element">
                 <Filter />
                 <h1>пицца</h1>
                 <div className="pizza__box-body">
                   <PizzaBlock />
                   <PizzaBlock />
                   <PizzaBlock />
-                  <PizzaBlock />
-                  <PizzaBlock />
-                  <PizzaBlock />
                 </div>
+                <Pagination />
               </div>
               <div className="drawer">
                 <Drawer />
@@ -34,6 +34,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   )
 }

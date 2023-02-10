@@ -11,7 +11,10 @@
   display: flex;
   justify-content: space-between;
 }
-.wrapper .content .pizza__box-item h1 {
+.wrapper .content .pizza__box-item .pizza__box-element {
+  width: 75%;
+}
+.wrapper .content .pizza__box-item .pizza__box-element h1 {
   text-transform: capitalize;
   font-family: "Gotham Pro", system-ui, Tahoma, sans-serif;
   font-size: 24px;
@@ -19,8 +22,8 @@
   color: #70555f;
   margin-bottom: 25px;
 }
-.wrapper .content .pizza__box-item .pizza__box-body {
-  max-width: 90%;
+.wrapper .content .pizza__box-item .pizza__box-element .pizza__box-body {
+  max-width: 100%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;

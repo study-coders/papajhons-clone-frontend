@@ -1,0 +1,119 @@
+footer {
+  padding: 40px 0 40px;
+
+  .footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .footer-top-right {
+      display: flex;
+
+      .footer-top-carrier {
+        ul {
+          li {
+            padding-bottom: 20px;
+            a {
+              font-weight: 500;
+              font-family: "Gotham Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+              color: #70544f;
+              font-size: 14px;
+              margin-right: 50px;
+            }
+          }
+        }
+      }
+
+      .footer-top-blog {
+        ul {
+          li {
+            padding-bottom: 20px;
+            a {
+              font-weight: 500;
+              font-family: "Gotham Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+              color: #70544f;
+              font-size: 14px;
+              margin-right: 50px;
+            }
+          }
+        }
+      }
+
+      .footer-top-delivery {
+        ul {
+          li {
+            padding-bottom: 20px;
+            a {
+              font-weight: 500;
+              font-family: "Gotham Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+              color: #70544f;
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+
+    .footer-top-left {
+      a {
+        img {
+          width: 150px;
+          height: 45px;
+          margin-left: 15px;
+        }
+      }
+    }
+  }
+
+  .footer-divider {
+    width: 100%;
+    height: 2px;
+    background-color: #f4f4f8;
+    margin-top: 10px;
+  }
+
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+
+    .footer-copyright {
+      width: 540px;
+      margin-right: 50px;
+      p {
+        font-family: 'Gotham Pro', system-ui, Tahoma, sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 16px;
+        color: #70544f;
+      }
+    }
+    .footer-vk {
+      margin-right: auto;
+      svg {
+        path {
+          fill: #bfb7b6;
+        }
+      }
+      &:hover {
+        path {
+          fill: #50a684;
+        }
+      }
+    }
+    .footer-info {
+      p {
+        font-family: 'Gotham Pro', system-ui, Tahoma, sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        color: #70544f;
+
+        &:hover {
+          color: #50a684;
+        }
+      }
+
+    }
+  }
+}

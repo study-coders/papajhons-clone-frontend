@@ -1,0 +1,37 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0 20px;
+
+  ul {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 4px;
+    padding: 10px;
+
+    li {
+      padding: 0 10px;
+
+      a {
+        color: #70544f;
+
+        svg {
+          width: 16px;
+          height: 16px;
+        }
+        &:hover {
+          color: #50a684;
+        }
+      }
+
+      .active-pagination {
+        background-color: #50a684;
+        border-radius: 4px;
+        padding: 5px 10px;
+        color: #ffffff!important;
+      }
+    }
+  }
+}

@@ -1,7 +1,7 @@
 .pizza__box-filter {
   display: flex;
   justify-content: space-between;
-  max-width: 90%;
+  max-width: 100%;
   padding-bottom: 25px;
 
   span {
@@ -35,6 +35,15 @@
       background-color: transparent;
       cursor: pointer;
       transition: color 0.25s linear;
+      position: relative;
+
+      .filter-img {
+        width: 10px;
+        margin-left: 20px;
+        path {
+          fill: #a69895;;
+        }
+      }
 
       svg {
         width: 20px;

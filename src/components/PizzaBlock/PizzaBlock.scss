@@ -1,9 +1,211 @@
 .pizza__block {
-  width: 282px;
-  height: 754px;
-  border: 1px solid black;
+  width: 292px;
+  min-height: 754px;
   background-color: #ffffff;
   border-radius: 10px;
   gap: 5px;
   margin-bottom: 15px;
+  position: relative;
+
+  .pizza-block-img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .pizza-block-link {
+    svg {
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      border: 1px solid rgba(166, 152, 149, 0.37);
+      border-radius: 100%;
+      width: 32px;
+      height: 32px;
+      padding: 6px;
+
+      path {
+        fill: green;
+      }
+    }
+  }
+
+  .hit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 16px 10px 0;
+
+    .hit-title {
+      background-color: #c21313;
+      color: #ffffff;
+      font-family: 'Gotham Pro', system-ui, Tahoma, sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 18px;
+      padding: 0 12px;
+    }
+
+    .hit-img {
+      margin-left: auto;
+
+      path {
+        fill: rgb(166, 152, 149);
+      }
+    }
+
+    .hit-person {
+      margin-left: 5px;
+      color: rgb(166, 152, 149);
+      font-size: 14px;
+    }
+  }
+
+  .pizza-wrapper {
+    height: 62%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 16px 16px 20px;
+
+    .pizza-wrapper-top {
+      .pizza-body {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+
+        .pizza-title {
+          font-family: 'Gotham Pro', system-ui, Tahoma, sans-serif;
+          font-size: 18px;
+          font-weight: 700;
+          color: #70544f;
+        }
+
+        .pizza-link {
+          path {
+            fill: rgb(191, 183, 182);
+          }
+        }
+      }
+
+      .pizza-subtitle {
+        font-size: 14px;
+        font-weight: 400;
+        color: rgb(166, 152, 149);
+        line-height: 19px;
+      }
+
+    }
+
+    .pizza-wrapper-bottom {
+      .pizza-sort {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid rgba(166, 152, 149, 0.15);
+        border-radius: 20px;
+        margin-top: 36px;
+
+        .pizza-sort-btn {
+          border: none;
+          font: inherit;
+          background-color: transparent;
+          cursor: pointer;
+          padding: 10px 25px 10px 25px;
+          color: #a69895;
+          font-size: 14px;
+          &:hover {
+            color: rgb(80, 166, 132);
+          }
+        }
+
+        .active {
+          background-color: #ededed;
+          border-radius: 18px;
+          padding-left: 25px;
+          color: #70544f!important;
+        }
+      }
+
+      .pizza-size {
+        margin-top: 8px;
+        border: 1px solid rgba(166, 152, 149, 0.15);
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+        .pizza-size-link {
+          padding: 10px 20px;
+          color: #a69895;
+          &:hover {
+            color: rgb(80, 166, 132);
+          }
+        }
+        .activeLink {
+          background-color: #ededed;
+          border-radius: 18px;
+          padding: 10px 25px;
+          color: #70544f!important;
+        }
+      }
+
+      .pizza-cheese {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 25px;
+
+        .pizza-cheese-plus {
+          svg {
+            width: 16px;
+            height: 16px;
+            margin-top: 8px;
+            path {
+              fill: #50a684;
+            }
+          }
+        }
+        span {
+          color: #50a684;
+        }
+      }
+
+      .pizza-bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 25px;
+
+        .pizza-bottom-btn {
+          border: inherit;
+          background-color: #50a684;
+          color: #ffffff;
+          padding: 13px 18px;
+          border-radius: 24px;
+          font-size: 16px;
+          font-weight: 500;
+          cursor: pointer;
+        }
+
+        .pizza-btn-bonus {
+          border: inherit;
+          background-color: #bfb7b6;
+          color: #ffffff;
+          padding: 13px 18px;
+          border-radius: 24px;
+          font-size: 16px;
+          font-weight: 500;
+          cursor: pointer;
+        }
+
+        .pizza-bottom-title {
+          font-family: 'Gotham Pro', system-ui, Tahoma, sans-serif;
+          font-weight: 500;
+          font-size: 18px;
+          color: #70544f;
+        }
+      }
+    }
+  }
 }
